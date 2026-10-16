@@ -1,0 +1,15 @@
+# PlatformIO
+.pio/
+.piolibdeps/
+
+# Visual Studio Code
+.vscode/
+
+# Archivos compilados
+*.bin
+*.elf
+*.hex
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
