@@ -26,3 +26,4 @@ Este proyecto implementa una interfaz de control manual para regular la luminosi
 | **Foco / Lámpara Regulable** | 1 | Carga de prueba (AC). |
 | **Fuente de Alimentación / Protoboard** | 1 | Distribución de energía y cableado. |
 
+
