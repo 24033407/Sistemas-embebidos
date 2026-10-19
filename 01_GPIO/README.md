@@ -43,3 +43,4 @@ Los botones utilizan la resistencia `INPUT_PULLUP` interna del ESP32. Al presion
 * `platformio.ini` — Configuración de PlatformIO.
 * `wokwi.toml` — Configuración de la simulación.
 * `diagram.json` — Diagrama del circuito en Wokwi.
+
