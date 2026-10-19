@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "author": "Hugo Antonio Mendez Guzman",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 157.55,
+      "left": 124.8,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 121.2,
+      "left": 195.8,
+      "attrs": { "color": "red", "flip": "1" }
+    },
+    { "type": "wokwi-gnd", "id": "gnd1", "top": 182.4, "left": 210.6, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton-6mm",
+      "id": "btn1",
+      "top": 36.2,
+      "left": 144,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton-6mm",
+      "id": "btn2",
+      "top": 74.6,
+      "left": 144,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    { "type": "wokwi-gnd", "id": "gnd2", "top": 105.6, "left": 172.2, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:23", "r1:1", "green", [ "h0" ] ],
+    [ "led1:A", "r1:2", "green", [ "v0" ] ],
+    [ "gnd1:GND", "led1:C", "black", [ "v0" ] ],
+    [ "esp:19", "btn2:2.l", "green", [ "h0" ] ],
+    [ "esp:21", "btn1:2.l", "green", [ "h24.04", "v-19.2" ] ],
+    [ "btn1:1.r", "gnd2:GND", "green", [ "v0", "h10.4" ] ],
+    [ "btn2:1.r", "gnd2:GND", "green", [ "v0", "h10.4" ] ]
+  ],
+  "dependencies": {}
+}
