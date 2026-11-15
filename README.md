@@ -1,13 +1,32 @@
-# Sistemas Embebidos
+# 🌡️ Sistema de Monitoreo y Control de Temperatura con ESP32
 
-Repositorio de prácticas de la materia **Sistemas Embebidos**, realizadas con ESP32, PlatformIO y Wokwi.
+**ESP32 | LM35 | LCD 16×2 | I²C | PlatformIO**
 
-## Prácticas
+## 📌 Descripción
+Sistema de monitoreo y control de temperatura mediante una ESP32 y un sensor LM35. Utiliza dos potenciómetros para ajustar los límites inferior (LL) y superior (HL). Los valores y el estado de funcionamiento se muestran en una pantalla LCD de 16×2.
 
-* **01_GPIO** — Control de un LED mediante dos botones utilizando entradas y salidas digitales del ESP32.
-* **02_Practica2** — Control de vaciado y llenado automático.
-* **03_Control_Temperatura_Histeresis** — Control automático de temperatura mediante histéresis con sensor DS18B20, LCD 16x2 I2C, celdas Peltier, ventiladores y foco a 120V.
-* **04_Servoaccionamiento**- control de la luminosidad de un foco mediando el servoaccionamiento con 2 botones.
-* **05_Controlador de Temperatura ON-OFF con ADC**- Monitor de Voltaje y Temperatura de señales analógicas y visualización en LCD 16×2 mediante I²C.
-* **06_ Controlador ON-OFF con Keypad**- Controlador de Temperatura ON-OFF con ESP32, Keypad 4×4, LCD I2C y DS18B20.
-* **07_Animatronico de Halloween**- Detección de movimiento, reproducción de audio, ojos LED y boca móvil.
+## 🎯 Objetivo
+Implementar un sistema capaz de medir la temperatura, ajustar límites de operación y visualizar la información mediante una pantalla LCD.
+
+## 🧰 Materiales
+- ESP32.
+- Sensor de temperatura LM35.
+- Dos potenciómetros.
+- Pantalla LCD 16×2 con I²C.
+- Protoboard y cables de conexión.
+
+## ⚙️ Funcionamiento
+El LM35 mide la temperatura y los potenciómetros permiten modificar los límites LL y HL. La pantalla LCD muestra las mediciones y el estado del sistema: calentamiento (CALEN) o enfriamiento (ENFR.).
+
+## 🧪 Pruebas realizadas
+Se modificaron los potenciómetros para comprobar el ajuste de los límites y se verificó la actualización de la temperatura y los estados en la pantalla LCD.
+
+## 📷 Evidencias
+Agregar fotografías del montaje del circuito y de las pruebas de funcionamiento.
+
+## 👨‍💻 Integrantes
+- Jesús Ángel Bonilla Duran
+- Viridiana Santibañez Carrillo
+- Jocelyn Rodriguez Torres
+
+Proyecto académico de Sistemas Embebidos.
