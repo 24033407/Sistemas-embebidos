@@ -9,3 +9,5 @@ Repositorio de prácticas de la materia **Sistemas Embebidos**, realizadas con E
 * **05_Controlador de Temperatura ON-OFF con ADC**- Monitor de Voltaje y Temperatura de señales analógicas y visualización en LCD 16×2 mediante I²C.
 * **06_ Controlador ON-OFF con Keypad**- Controlador de Temperatura ON-OFF con ESP32, Keypad 4×4, LCD I2C y DS18B20.
 * **07_Animatronico de Halloween**- Detección de movimiento, reproducción de audio, ojos LED y boca móvil.
+* **08_Practica – Control Proporcional**- Control automático de temperatura mediante un controlador proporcional (P).
+* **09_Practica – Controlador PID básico**- Control automático de temperatura mediante un controlador PID con ESP32.  
