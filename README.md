@@ -11,3 +11,4 @@ Repositorio de prácticas de la materia **Sistemas Embebidos**, realizadas con E
 * **07_Animatronico de Halloween**- Detección de movimiento, reproducción de audio, ojos LED y boca móvil.
 * **08_Practica – Control Proporcional**- Control automático de temperatura mediante un controlador proporcional (P).
 * **09_Practica – Controlador PID básico**- Control automático de temperatura mediante un controlador PID con ESP32.  
+* **10_Proyecto Final- Sistema de Control PID de Temperatura**- Proyecto de control de temperatura mediante ESP32 con monitoreo y configuración desde una interfaz web.
